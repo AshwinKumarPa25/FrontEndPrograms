@@ -1,0 +1,51 @@
+h1{
+    width: 20%;
+    border-width: 5px;
+    border-color: black;
+    border-width: 10px;
+    
+}
+#solid{
+    border-style: solid;
+}
+#dashed{
+    border-style: dashed;
+}
+#double{
+    border-style: double;
+}
+#dotted{
+    border-style: dotted;
+}
+#inset{
+    border-color: blue;
+    border-style: inset;
+}
+#outset{
+    border-color: brown;
+    border-style: outset;
+}
+div{
+    border-width: 100px;
+    width: 300px;
+    height: 300px;
+}
+#groove{
+    border-color: red;
+    border-style:groove ;
+}
+#ridge{
+    border-color: blue;
+    border-style: ridge;
+}
+#mixed{
+    /* border-top-color: brown;
+    border-top-width: 20px;
+    border-top-style: solid; */
+    
+    /* short hand method */
+    border-top: 20px solid red;
+    border-right: 20px dashed lightgreen;
+    border-left: 20px dotted gray;
+    border-bottom: 20px double blueviolet;
+}

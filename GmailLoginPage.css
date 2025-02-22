@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(240, 244, 249);
+}
+/* #leftDiv{
+    width: 1135px;
+    height: 405px;
+    background-color: rgb(255, 255, 255);
+    margin: 150px;
+    margin-left:190px;
+    border-radius: 28px;
+}
+#Logo{
+    width: 39px;
+    margin: 40px;
+} */
+#parent{
+    width: 75%;
+    height: 405px;
+    background-color: white;
+    margin: 150px auto;
+    border-radius: 28px;
+}
+.child{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+#Logo{
+    width: 40px;
+    margin-left: 40PX;
+    margin-top: 40PX;
+}
+#SignIn_Heading{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+#SignIn_Para{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 35px;
+}
+fieldset{
+    font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+    width: 105%;
+    height: 45px;
+    border-color: royalblue;
+    margin-top: 110px;
+    margin-left: 50px;
+    border-radius: 8px;
+    border: 2px royalblue solid;
+}
+legend{
+    color: royalblue;
+    font-size: 12px;
+}
+input{
+    border: none;
+    outline: none;
+}
+

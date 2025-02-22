@@ -1,0 +1,56 @@
+/* first way */
+/* #Capsule{
+    width: 600px;
+    height: 250px;
+}
+.half{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#red{
+    background-color: blue;
+    border-radius: 50% 0% 0% 50%;
+    background-image: linear-gradient(90deg,blue,white);
+}
+#blue{
+    background-color: red;
+    border-radius: 0% 50% 50% 0%;
+    background-image: linear-gradient(90deg,white,red);
+}*/
+
+/* Second way */
+/* #Capsule{
+    width: 500px;
+    height: 250px;
+    background-image: linear-gradient(90deg,blue 50%,red 50%);
+    border-radius: 130px;
+} */
+
+/* third way */
+/* #blue{
+    width: 500px;
+    height: 250px;
+    background-color: blue;
+    border-radius: 130px;
+}
+#red{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    border-radius: 0% 50% 50% 0%;
+    float: right;
+} */
+
+#red{
+    width: 500px;
+    height: 250px;
+    background-color: red;
+    border-radius: 130px;
+}
+#blue{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    border-radius: 50% 0% 0% 50%;
+}

@@ -1,0 +1,16 @@
+#flower{
+    width: 500px;
+    height: 500px;
+}
+.petal{
+    width: 50%;
+    height: 50%;
+    background-image: linear-gradient(pink,magenta);
+    float: left;
+}
+#petal2,#petal3{
+    border-radius: 100% 0%;
+}
+#petal1,#petal4{
+    border-radius: 0% 100%;
+}

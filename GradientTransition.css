@@ -1,0 +1,15 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#block{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to right,blue,magenta,red,orange);
+    transition: all 3s;
+    /* background-size: 5000px; */
+}
+#block:hover{
+    background-position: 5000px;
+
+}
